@@ -16,7 +16,9 @@ body {
   justify-content: center;
   padding: 60px 20px;
 }
-
+.sign-in h1 {
+  font-weight: 400;
+}
 /* ================= LOGIN CARD ================= */
 .login-card {
   background: #fff;
@@ -354,3 +356,4 @@ select:focus {
     font-size: 13px;
   }
 }
+
