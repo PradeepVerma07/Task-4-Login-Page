@@ -1,4 +1,4 @@
-/* ================= RESET ================= */
+
 * {
   box-sizing: border-box;
   font-family: MiSans, sans-serif;
@@ -10,7 +10,6 @@ body {
   color: #27282a;
 }
 
-/* ================= PAGE CONTAINER ================= */
 .container {
   display: flex;
   justify-content: center;
@@ -19,7 +18,7 @@ body {
 .sign-in h1 {
   font-weight: 400;
 }
-/* ================= LOGIN CARD ================= */
+
 .login-card {
   background: #fff;
   border-radius: 16px;
@@ -29,12 +28,10 @@ body {
   position: relative;
 }
 
-/* ================= LEFT ================= */
 .login-left {
   padding: 36px;
 }
 
-/* ================= RIGHT ================= */
 .login-right {
   padding: 36px;
   display: flex;
@@ -43,7 +40,6 @@ body {
   text-align: center;
 }
 
-/* ================= CENTER DIVIDER ================= */
 .login-card::after {
   content: "";
   position: absolute;
@@ -54,13 +50,12 @@ body {
   background: #eee;
 }
 
-/* ================= TITLE ================= */
+
 .sign-in {
   text-align: center;
    
 }
 
-/* ================= TABS ================= */
 .tabs {
   display: flex;
   background: #f1f2f4;
@@ -85,7 +80,6 @@ body {
   font-weight: 600;
 }
 
-/* ================= PANELS ================= */
 .tab-panel {
   display: none;
 }
@@ -93,14 +87,12 @@ body {
   display: block;
 }
 
-/* ================= LABELS ================= */
 label {
   display: block;
   margin-top: 12px;
   font-size: 14px;
 }
 
-/* ================= INPUTS ================= */
 input,
 select {
   width: 100%;
@@ -112,7 +104,7 @@ select {
   font-size: 14px;
 }
 
-/* ================= PHONE ================= */
+
 .phone-input-group {
   display: flex;
   gap: 4px;
@@ -133,20 +125,19 @@ select {
 
 
 
-/* 🔥 hover = thin dark border */
+
 input:hover,
 select:hover {
   border-color: #1d2939; /* soft black (not pure black) */
 }
 
-/* focus keeps your existing focus color (Pionex style) */
 input:focus,
 select:focus {
   outline: none;
   border-color: #1d2939; /* or #3b82f6 if you prefer blue */
 }
 
-/* ================= PASSWORD ================= */
+
 .password {
   position: relative;
   width: 380px;
@@ -162,19 +153,18 @@ select:focus {
   color: #999;
 }
 
-/* ================= ERROR ================= */
+
 .error {
   display: none;
   font-size: 12px;
   color: #f04438;
 }
-/* ================= ERROR INPUT BORDER ================= */
+
 .error-input {
   border-color: #f04438 !important; /* red border */
 }
 .error
 
-/* ================= REMEMBER ================= */
 .remember {
   display: flex;
   align-items: center;
@@ -188,8 +178,6 @@ select:focus {
   height: 16px;
   accent-color: #f60;
 }
-
-/* ================= BUTTONS ================= */
 .btn-primary {
   width: 380px;
   height: 48px;
@@ -213,7 +201,7 @@ select:focus {
   cursor: pointer;
 }
 
-/* ================= OR DIVIDER ================= */
+
 .divider {
   width: 380px;
   display: flex;
@@ -233,11 +221,10 @@ select:focus {
   background: #e5e7eb;
 }
 
-/* ================= LINKS ================= */
 .auth-links {
-  margin-top: 16px;                 /* space above */
+  margin-top: 16px;                 
   display: flex;
-  justify-content: space-between;   /* left ↔ right */
+  justify-content: space-between;   
   align-items: center;
   font-size: 14px;
 }
@@ -254,7 +241,6 @@ select:focus {
   pointer-events: none; /* UI only */
 }
 
-/* ================= QR ================= */
 .qr-box {
   width: 140px;
   height: 140px;
@@ -275,7 +261,7 @@ select:focus {
   color: #f60;
 }
 
-/* ================= FULL RESPONSIVE ================= */
+
 
 /* Large laptops & small desktops */
 @media (max-width: 1200px) {
@@ -356,4 +342,5 @@ select:focus {
     font-size: 13px;
   }
 }
+
 
