@@ -189,10 +189,7 @@ select:focus {
   font-size: 16px;
   cursor: pointer;
 }
-.btn-primary :hover,
-select:hover {
-  border-color: #ff7152;
-}
+
 
 
 .oauth {
@@ -347,6 +344,7 @@ select:hover {
     font-size: 13px;
   }
 }
+
 
 
 
