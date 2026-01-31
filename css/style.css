@@ -123,9 +123,6 @@ select {
   
 }
 
-
-
-
 input:hover,
 select:hover {
   border-color: #1d2939; 
@@ -189,8 +186,9 @@ select:focus {
   font-size: 16px;
   cursor: pointer;
 }
-
-
+.btn-primary:hover {
+  background: #ff7152; /* ✔ hover color */
+}
 
 .oauth {
   width: 380px;
@@ -236,11 +234,10 @@ select:focus {
   cursor: pointer;
 }
 
-
 .auth-links a {
   color: #f60;
   cursor: pointer;
-  pointer-events: none; /* UI only */
+  pointer-events: none; 
 }
 
 .qr-box {
@@ -258,14 +255,10 @@ select:focus {
   object-fit: contain;
 }
 
-
 .orange {
   color: #f60;
 }
 
-
-
-/* Large laptops & small desktops */
 @media (max-width: 1200px) {
   .login-card {
     width: 100%;
@@ -344,6 +337,7 @@ select:focus {
     font-size: 13px;
   }
 }
+
 
 
 
